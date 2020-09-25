@@ -1,6 +1,3 @@
-from app import main
-
-
 def test_ping(test_app):
     # Given
     # test_app
@@ -14,7 +11,7 @@ def test_ping(test_app):
 
 # # if a class is used, it must begin with Test
 # class TestFoo:
-# 
+#
 #     # test functions must begin with test_
 #     def test_bar(self):
 #         assert "foo" != "bar"
