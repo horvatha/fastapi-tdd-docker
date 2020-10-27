@@ -9,6 +9,7 @@ def test_ping(test_app):
     assert response.status_code == 200
     assert response.json() == {"environment": "dev", "ping": "pong!", "testing": True}
 
+
 # # if a class is used, it must begin with Test
 # class TestFoo:
 #
